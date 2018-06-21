@@ -1,0 +1,374 @@
+.left-area{
+    width: 350px;
+    height: 100%;
+}
+
+.nav{
+    background-color: #1d2531;
+    width: 100px;
+    float: left;
+    height: 100%;
+}
+
+.profit-top{
+    position: relative;
+    padding: 20px;
+    /* top: 20px; */
+}
+
+.profit-top span{
+    display: block;
+    margin-bottom: 20px;
+}
+.nav .active{
+    position: relative;
+    background-color: #fff;
+    left: 0;
+    top: 50px;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+}
+
+/* profit-top结束 */
+
+.profit-footer{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.profit-footer span{
+    margin-right: 20px;
+}
+/* nav 结束 */
+
+.menu{
+    font-weight: bold;
+    width: 250px;
+    height: 100%;
+    margin-left: 100px;
+    background-color: #1b283d;
+}
+
+.menu p{
+    padding: 20px;
+    font-size: 12px;
+    color: #475364;
+}
+.menu ul li:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.menu ul{
+    margin: 0 20px;
+    border-bottom: 1px solid #26354d;
+}
+.menu ul li{
+    display: block;
+    line-height: 36px;
+    color: #8f99a6;
+    font-size: 12px;
+
+}
+
+.menu .sales{
+        color: white;
+        background-image: -moz-linear-gradient( 90deg, rgb(25,145,235) 0%, rgb(46,161,248) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(25,145,235) 0%, rgb(46,161,248) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(25,145,235) 0%, rgb(46,161,248) 100%);
+        position: absolute;
+        font-size: 12px;
+        left: 288px;
+        top: 102px;
+        width: 32px;
+        height: 24px;
+        line-height: 24px;
+        padding: 0 8px;
+        border-radius: 12px;
+}
+
+.menu .icon img{
+    margin-right: 12px;
+}
+.menu-footer {
+    position: absolute;
+    padding: 0 20px;
+    bottom: 30px;
+    color: white;
+    font-size: 12px;
+}
+.menu-footer span{
+    position: absolute;
+    bottom: 35px;
+}
+.menu-footer img{
+    bottom: 30px;
+}
+/* menu及nav结束 */
+/* chat开始 */
+
+.chat-area{
+    margin-left: 350px;
+    height: 100%;
+}
+.chat-area header{
+    height: 80px;
+    border-bottom: 1px solid #e0e0e0;
+}
+header .title{
+    line-height: 80px;
+    color: #354052;
+    font-size: 24px;
+    margin-left: 20px;
+}
+header .user-info{
+    margin-right: 45px;
+    color: hsl(0, 0%, 56%);
+}
+header .user-info span:nth-of-type(1){
+    color:hsl(220, 100%, 41%);
+}
+
+header .user-info a{
+    line-height: 80px;
+}
+header .user-info a::after{
+        content:url(../images/Status.png);
+        position: relative;
+        bottom: -18px;
+        right: 18px;
+}
+header .user-info .text{
+    margin-top: 20px;
+}
+
+header .user-info .text::after{
+    content: url(../images/dropdown.png);
+    position: relative;
+    left: 20px;
+    top: -15px;
+}
+/* main-content开始 */
+
+.list{
+    width: 400px;
+    height: cal(100%-80px);
+    border-right: #e0e0e0 1px solid;
+}
+.main-content{
+    margin-left: 400px;
+}
+
+.list .search{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.search input{
+    padding: 0 8px;
+    color: #b2bac8;
+    width: 340px;
+    height: 36px;
+    margin: 17px 30px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background: url(../images/Search\ icon.png) 312px no-repeat;
+}
+
+/* 用户列表 */
+.fri-list{
+    height: 100%;
+}
+.friend{
+    height: 128px;
+    border-bottom: 1px solid #e0e0e0; 
+    background: url(../images/Face2.png) 27px 15px no-repeat;
+    color: #585d68;
+    font-size: 16px;
+
+}
+.fri-list .username{
+    position: relative;
+    left:98px;
+    top: 24px;
+}
+.fri-list .active .username::before{
+    content: "";
+        border-radius: 50%;
+        background-color: rgb(0, 170, 255);
+        position: absolute;
+        left: -12px;
+        top: 8px;
+        width: 8px;
+        height: 8px;
+}
+.fri-list .username::after{
+    content: "Twitter";
+    position: absolute;
+    left: 0;
+    top: 24px;
+    font-size: 12px;
+    color: #8f8f8f;
+
+}
+
+.fri-list .active{
+    color:#2399f1;
+    border-left: #2399f1 3px solid;
+}
+
+.friend p{
+    font-size: 12px;
+    color: #8f8f8f;
+    position: relative;
+    top: 35px;
+    left: 27px;
+}
+.friend .Notifications{
+        color: white;
+        line-height: 22px;
+        font-size: 12px;
+        padding: 0 8px;
+        border-radius: 50%;
+        background-image: -moz-linear-gradient( 90deg, rgb(25,145,235) 0%, rgb(46,161,248) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(25,145,235) 0%, rgb(46,161,248) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(25,145,235) 0%, rgb(46,161,248) 100%);
+        position: absolute;
+        left: 705px;
+        top: 229px;
+        width: 24px;
+        height: 24px;   
+}
+
+.friend span{
+    font-size: 14px;
+    color: #7f8fa4;
+    position: relative;
+    top: 0px;
+    left: 354px;
+}
+
+/* fri-list结束 */
+
+/* main-content开始 */
+.main-content .header{
+    font-family: ProximaNova, Arial, Helvetica, sans-serif;
+    height: 70px;
+    color: #585d68;
+    font-size: 18px;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 70px;
+    padding: 0 20px;
+}
+.main-content .header .title::after{
+    content: "";
+        border-radius: 50%;
+        background-color: rgb(27, 185, 52);
+        position: absolute;
+        left: 880px;
+        top: 112px;
+        width: 8px;
+        height: 8px;
+}
+.btn-area .operation{
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(206, 208, 218);
+        border-radius: 4px;
+        background-image: -moz-linear-gradient( 90deg, rgb(241,243,247) 0%, rgb(255,255,255) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(241,243,247) 0%, rgb(255,255,255) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(241,243,247) 0%, rgb(255,255,255) 100%);
+        width: 113px;
+        height: 36px;
+        position: relative;
+        top: 16px;
+        right: 30px;
+}
+.btn-area .operation a{
+    display: inline-block;
+    width: 32px;
+    height: 36px;
+    position: relative;
+    top: -18px;
+    left: 10px;
+}
+.btn-area .operation a:nth-of-type(3){
+    border-right: none;
+}
+.btn-area .next{
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(206, 208, 218);
+        border-radius: 4px;
+        background-image: -moz-linear-gradient( 90deg, rgb(241,243,247) 0%, rgb(255,255,255) 100%);
+        background-image: -webkit-linear-gradient( 90deg, rgb(241,243,247) 0%, rgb(255,255,255) 100%);
+        background-image: -ms-linear-gradient( 90deg, rgb(241,243,247) 0%, rgb(255,255,255) 100%);
+        width: 77px;
+        height: 36px;
+        position: relative;
+        top: 15px;
+        right: 10px;
+}
+.btn-area .next a{
+    display: inline-block;
+    width: 32px;
+    height: 36px;
+    position: relative;
+    top: -18px;
+    left: 18px;
+  
+}
+
+
+.news {
+    background: url(../images/Face1.png) 27px 15px no-repeat;
+    color: #585d68;
+    font-size: 14px;
+}
+.news span{
+    font-size: 16px;
+    color: rgb(88, 93, 104);
+    padding: 30px 0 0 88px;
+    position: relative;
+    top: 20px;
+}
+.news span::after{
+    content: "8:31 AM";
+    margin-left: 12px;
+    color: #8f8f8f;
+    font-size: 14px;
+}
+.news p{
+        font-size: 14px;
+        color: #8f8f8f;
+        line-height:18px;
+        padding: 30px 0 20px 88px;
+
+      
+}
+.line{
+    position: relative;
+    font-size: 14px;
+    color: rgb(127, 143, 164);
+    text-align: center;
+      
+}
+.line::before{
+    content: '';
+    position: absolute;
+    left:0;
+    right:0;
+    top: 50%;
+    border-top: 1px solid #ccc;
+    z-index: -1;
+  }
+  .line span{
+    padding: 0 1em;
+    background-color: #fff;
+  }
+  .news img{
+      display: inline-block;
+      position: relative;
+      margin:0 20px 20px 88px;
+
+  }
